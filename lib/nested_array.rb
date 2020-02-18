@@ -29,13 +29,6 @@ matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
-  # Given any matrix (array of arrays), a row index and a column index,
-  # Update the matrix location at that row and column to have the value of new_value
-  # Return the updated matrix
-  array = [conventional_produce = ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"],
-  organic_produce = ["Strawberries","Potatoes","Grapes","Avocadoes","Asparagus"]]
-conventional_produce[2] = "Onions"
-return conventional_produce
-conventional_produce[2] = "Lemons"
-return conventional_produce
+    matrix[row][column] = new_value
+    matrix 
 end
